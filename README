@@ -1,0 +1,9 @@
+It's quick'n'dirty.
+Set the exploration depth in test.hs.
+
+Compilation:
+ghc --make -O2 test.hs
+./test fileName outputs a LaTex file (pdflatex fileName.tex will create the pdf)
+
+Near 0 values are ignored (because it is often (small number)/(large number))
+Near -1,1 values are separated (because it is often (+/-)(number)**(near zero number))
