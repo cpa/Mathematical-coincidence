@@ -1,6 +1,6 @@
 import Formula
 import SearchCoincidence
-import System(getArgs)
+import System.Environment (getArgs)
 
 main :: IO ()
 main = 
