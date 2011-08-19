@@ -9,7 +9,7 @@ module Formula
     ,writeLatexDocument
 ) where
 
-import Char (intToDigit,digitToInt)
+import Data.Char (intToDigit,digitToInt)
 import System.IO
 import Data.List (partition)
 
